@@ -1,32 +1,44 @@
-React + Typescript + ESLint + Prettier Vite
+# Elbrus Bootcamp Vite bundle
 
-Современный быстрый сборщик React проекта на Typescript с предустановленными настройками ESLint и Prettier.
+## React + Typescript + ESLint + Prettier
 
+Современный быстрый сборщик React проекта на Typescript с предустановленными настройками ESLint и Prettier от Elbrus Bootcamp.
 
-Описание проекта:
-Этот проект - сборщик React приложения на Typescript с предустановленными настройками ESLint и Prettier для быстрого и современного разработки.
+## Использование
 
-Использование:
-Для использования проекта необходимо выполнить следующие команды:
+```
+npx degit Elbrus-Bootcamp/vite-react-ts my-app
 
-npx degit Zit8/vite-react-ts-main my-app
 cd my-app
+
 npm i
+```
 
-Скрипты:
-Запустить в режиме разработки
+## Скрипты
+
+- Запустить в режиме разработки
+
+```
 npm run dev
+```
 
-Собрать проект:
+- Собрать проект
+
+```
 npm run build
+```
 
-Превью:
+- Превью
+
+```
 npm run preview
+```
 
+## `settings.json`
 
-settings.json
-Чтобы настроить форматирование и линтование по сохранению, необходимо прописать в settings.json (ctrl + shift + P) следующие настройки:
+Чтобы настроить форматирование и линтование по сохранению, необходимо прописать в `settings.json` (ctrl + shift + P) следующие настройки:
 
+```json
 {
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
@@ -34,10 +46,11 @@ settings.json
   "editor.formatOnSave": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode"
 }
-
+```
 
 Можно добавить форматирование Prettier для JS и React:
 
+```json
 {
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -46,14 +59,17 @@ settings.json
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   }
 }
+```
 
 При работе не из корневой директории необходимо настроить CWD для ESLint:
 
+```json
 {
   "eslint.workingDirectories": [
     { "directory": "./client", "changeProcessCWD": true },
     { "directory": "./server", "changeProcessCWD": true }
   ]
 }
+```
 
-Если директория не client или server, то можно добавить соответствующую строчку в данный массив.
+Если директория не `client` или `server`, то можно добавить соответствующую строчку в данный массив.
