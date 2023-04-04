@@ -2,12 +2,12 @@
 
 ## React + Typescript + ESLint + Prettier
 
-Современный быстрый сборщик React проекта на Typescript с предустановленными настройками ESLint и Prettier от Elbrus Bootcamp.
+Современный быстрый сборщик React проекта на Typescript с предустановленными настройками ESLint и Prettier
 
 ## Использование
 
 ```
-npx degit Elbrus-Bootcamp/vite-react-ts my-app
+npx degit Zit8/vite-react-ts my-app
 
 cd my-app
 
