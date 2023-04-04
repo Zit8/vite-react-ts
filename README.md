@@ -1,47 +1,10 @@
-# vite-react-ts-main
+<h1 align="center">React + Typescript + ESLint + Prettier<a href="https://daniilshat.ru/" target="_blank">⚡ Vite ⚡</a> 
+<img src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32"/></h1>
+<h3 align="center">Современный быстрый сборщик React проекта на Typescript с предустановленными настройками ESLint и Prettier.</h3>
 
-React + Typescript + ESLint + Prettier
-Современный быстрый сборщик React проекта на Typescript с предустановленными настройками ESLint и Prettier.
+
+Описание проекта
+Этот проект - сборщик React приложения на Typescript с предустановленными настройками ESLint и Prettier для быстрого и современного разработки.
 
 Использование
-npx degit Elbrus-Bootcamp/vite-react-ts my-app
-
-cd my-app
-
-npm i
-Скрипты
-Запустить в режиме разработки
-npm run dev
-Собрать проект
-npm run build
-Превью
-npm run preview
-settings.json
-Чтобы настроить форматирование и линтование по сохранению, необходимо прописать в settings.json (ctrl + shift + P) следующие настройки:
-
-{
-  "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
-  },
-  "editor.formatOnSave": true,
-  "editor.defaultFormatter": "esbenp.prettier-vscode"
-}
-Можно добавить форматирование Prettier для JS и React:
-
-{
-  "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[javascriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
-}
-При работе не из корневой директории необходимо настроить CWD для ESLint:
-
-{
-  "eslint.workingDirectories": [
-    { "directory": "./client", "changeProcessCWD": true },
-    { "directory": "./server", "changeProcessCWD": true }
-  ]
-}
-Если директория не client или server, то можно добавить соответствующую строчку в данный массив.
+Для использования проекта необходимо выполнить следующие команды:
