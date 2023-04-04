@@ -1,4 +1,4 @@
-# Elbrus Bootcamp Vite bundle
+# Vite bundle
 
 ## React + Typescript + ESLint + Prettier
 
